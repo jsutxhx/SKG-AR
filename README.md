@@ -1,4 +1,4 @@
-# recommendation-fine-gained-kg
+# Recommendation-fine-gained-kg
 This repository contains the annotated STM corpus with coreferences, populated knowledge graphs and source code for the paper:
 Academic Paper Recommendation with Integration of Fine-Grained Knowledge Graphs and Multi-dimensional Document Embeddings
 
