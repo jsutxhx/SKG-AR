@@ -7,7 +7,7 @@ Python 3.7 required. Install the requirements with:
 - (in case pipenv isn't installed yet: `pip install pipenv`)
 - `pipenv install`
   
-## Datasets
+## Datasets about KG
 
 - data/stm-coref: contains the annotated coreferences separated per domain BRAT/standoff format.
 - data/stm-entities: contains the annotated concepts separated per domain in BRAT/standoff format.
@@ -32,3 +32,19 @@ To evaluate the effect of coreference resolution in knowledge graph population a
 ### Build knowledge graphs
 To build the in-domain and cross-domain Test-STM-KG and the research knowledge graphs, run the following python script:
 - build_kgs.py: creates the knowledge graphs in knowledge_graph/
+
+## Datasets about Recommendation
+The evaluation KG is based on the STM-KG.
+We use the in-domain KG ('data/stm_silver_kg_in_domain_with_corefs.jsonl') and cross-domain KG ('data/stm_silver_kg_cross_domain_with_corefs.jsonl') for evaluation. 
+
+The file 'data/documents_citations.jsonl' contains the citations and the file 'data/abstracts_specter.json' contains the abstracts for each paper in the STM-KG.
+## Embeddings for Recommendation
+The file 'data/abstracts_specter_embeddings.json' contains the SPECTER embeddings for each abstract. 
+The embeddings can be recreated with the SPECTER library (see also 'embed_specter.py'): https://github.com/allenai/specter
+
+The file 'data/abstracts_embeddings_average_word_embeddings_glove.840B.300d.jsonl' contains GloVe embeddings and the file 'data/abstracts_embeddings_allenai_scibert_scivocab_uncased.jsonl' SciBERT embeddings (averaged).
+These embeddings can recreated with the sentence transformers library (see also 'embed_sentence_transformers.py'): https://github.com/UKPLab/sentence-transformers  
+
+## Ranking of Recommendation
+To build the citation graph and perform the ranking, run the script 'evaluate_citation_recommendation_ranking.py'.
+Check the TODO statements to vary the evaluation (e.g. to change the KG).
