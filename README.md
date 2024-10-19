@@ -1,6 +1,6 @@
-# Recommendation-fine-gained-kg
+# SKG-AR
 This repository contains the annotated STM corpus with coreferences, populated knowledge graphs and source code for the paper:
-Academic Paper Recommendation with Integration of Fine-Grained Knowledge Graphs and Multi-dimensional Document Embeddings
+Enhancing Academic Paper Recommendation via Fine-Grained Knowledge Entities and Multidimensional Document Embeddings
 
 ## Installation
 Python 3.7 required. Install the requirements with:
