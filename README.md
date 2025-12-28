@@ -55,3 +55,8 @@ These embeddings can recreated with the sentence transformers library (see also 
 ### Ranking of Recommendation
 To build the citation graph and perform the ranking, run the script 'evaluate_citation_recommendation_ranking.py'.
 Check the TODO statements to vary the evaluation (e.g. to change the KG).
+
+## Citation
+Please cite the following paper if you use this code and dataset in your work.
+    
+>Haixu Xi, Heng Zhang, Chengzhi Zhang\*. Enhancing Academic Paper Recommendations Using Fine-Grained Knowledge Entities and Multifaceted Document Embeddings *Scientometrics*, 2026. [[doi]]()  [[arXiv]]()
