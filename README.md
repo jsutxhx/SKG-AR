@@ -59,4 +59,4 @@ Check the TODO statements to vary the evaluation (e.g. to change the KG).
 ## Citation
 Please cite the following paper if you use this code and dataset in your work.
     
->Haixu Xi, Heng Zhang, Chengzhi Zhang\*. Enhancing Academic Paper Recommendations Using Fine-Grained Knowledge Entities and Multifaceted Document Embeddings. ***Scientometrics***. 2026 (in press)   [[doi]]()   [[arXiv]](https://arxiv.org/abs/2601.19513)   [[Dataset & Source Code]](https://github.com/jsutxhx/SKG-AR)
+>Haixu Xi, Heng Zhang, Chengzhi Zhang\*. Enhancing Academic Paper Recommendations Using Fine-Grained Knowledge Entities and Multifaceted Document Embeddings. ***Scientometrics***. 2026 (in press)   [[doi]](https://doi.org/10.1007/s11192-026-05564-7)   [[arXiv]](https://arxiv.org/abs/2601.19513)   [[Dataset & Source Code]](https://github.com/jsutxhx/SKG-AR)
